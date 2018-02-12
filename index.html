@@ -1,0 +1,26 @@
+
+<html>
+<head>
+    <!--Load the AJAX API-->
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"
+            integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="reporting-api-jquery-example.js"></script>
+    <script type="text/javascript">
+        $(document).ready(getReportingData("[API-HOST]", "[FORM-ID]", "[API-KEY]")); 
+    </script>
+
+</head>
+
+<body>
+    <h1>Usage</h1>
+    <ul>
+        <li>Replace <code>[API-HOST]</code> at header of <code>index.html</code></li>
+        <li>Replace <code>[FORM-ID]</code> at header of <code>index.html</code></li>
+        <li>Replace <code>[API-KEY]</code> at header of <code>index.html</code></li>
+        <li>Open your Javascript Console in browser </li>
+        <li>Refresh page and see results</li>
+    </ul>
+</body>
+</html>
